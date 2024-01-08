@@ -1,0 +1,549 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: #FFA500;
+  /* changed to orange */
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media (max-width: 700px) {
+  body {
+    font-size: 13px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 17px;
+  }
+}
+
+
+/* @media (max-width: 700px) {
+  body {
+    font-size: 13px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 20px;
+  }
+} */
+
+#light {
+  background-color: white;
+}
+
+#dark {
+  background-color: #0F1624;
+}
+
+.custom-btn {
+  border-color: #3edd8e;
+  background-color: #3edd8e
+}
+
+.mainHome {
+  margin-top: 4%;
+}
+
+
+
+
+@media screen and (max-device-width:600px),
+screen and (max-width:600px) {
+  .mainHome {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-device-width:800px),
+screen and (max-width:800px) {
+  .mainHome {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-device-width:450px),
+screen and (max-width:450px) {
+  .mainHome {
+    margin-top: 50%;
+  }
+}
+
+.custom-btn:hover {
+  border-color: #3edd8e;
+  background-color: white;
+  color: #3edd8e;
+}
+
+.link {
+  color: #3edd8e;
+  /* color: #ec6e59; */
+  list-style: none;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav {
+  left: 0;
+  right: 0;
+  z-index: 10;
+
+}
+
+.nav-phone {
+  margin-right: 40px;
+}
+
+@media screen and (max-device-width:990px),
+screen and (max-width:990px) {
+  .SocialMediaNav {
+    display: none;
+
+  }
+}
+
+@media screen and (max-device-width:991px),
+screen and (max-width:991px) {
+  .img-phone {
+    width: 300px;
+    height: auto;
+    display: flex;
+
+  }
+}
+
+@media screen and (max-device-width:500px),
+screen and (max-width:500px) {
+  .img-phone {
+    width: 300px;
+    height: auto;
+
+  }
+}
+
+@media screen and (max-device-width:768px),
+screen and (max-width:768px) {
+  .nav-phone {
+    margin-right: 10px;
+    font-size: 14px;
+
+
+
+  }
+}
+
+
+
+.skillsStyleNE {
+  width: 150px;
+  height: 150px;
+}
+
+@media screen and (max-device-width:858px),
+screen and (max-width:858px) {
+  .skillsStyleNE {
+    width: 45px;
+    height: 55px;
+
+  }
+}
+
+.skillsStyleNE2 {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-device-width:858px),
+screen and (max-width:858px) {
+  .skillsStyleNE2 {
+    width: 45px;
+    height: 55px;
+
+  }
+}
+
+.centerTheDiv {
+  margin: auto;
+  width: 50%;
+}
+
+.navStuff {
+  position: fixed;
+}
+
+#light .navColour {
+  background-color: white;
+}
+
+#dark .navColour {
+  background-color: #0F1624;
+}
+
+#dark .NameColour {
+  color: white;
+}
+
+#light .NameColour {
+  color: #212529;
+}
+
+.link:hover {
+  color: #3edd8e;
+  /* color: #f58f7d; */
+}
+
+#light .ModeColour {
+  color: #3edd8e;
+}
+
+#dark .ModeColour {
+  color: white;
+}
+
+.active {
+  border-bottom-color: #3edd8e;
+  /* border-bottom: 3px solid #ec6e59; */
+  border-bottom: 3px solid #3edd8e;
+}
+
+.bg-color {
+  background-color: #262a2e;
+}
+
+.custom-color-btn {
+  background-color: #ec6e59;
+  border: 1px solid #ec6e59;
+}
+
+.custom-color {
+  color: #3edd8e;
+  font-weight: 300;
+}
+
+.custom-font {
+  font-style: italic;
+  font-weight: 600;
+  color: #3edd8e;
+
+}
+
+.custom-font {
+  max-width: 700px;
+
+}
+
+.project-img {
+  max-width: 400px;
+  object-fit: cover;
+  max-height: 100%;
+  transition: all 0.4s ease;
+  opacity: 0.9;
+}
+
+
+.project-img:hover {
+  opacity: 1;
+  transition: all 0.4s ease;
+}
+
+@media (min-width: 768px) {
+  .form-class {
+    width: 500px;
+  }
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.grey-text {
+  color: grey;
+}
+
+#light .projectsDivColour {
+  background-color: white;
+}
+
+#dark .projectsDivColour {
+  background-color: #0F1624;
+}
+
+#light .cardBackgroundColour {
+  background-color: #0F1624;
+  color: white;
+}
+
+#dark .cardBackgroundColour {
+  background-color: rgb(24, 26, 27);
+}
+
+#light .aboutTextColour {
+  color: #212529;
+}
+
+#dark .aboutTextColour {
+  color: white;
+}
+
+#dark .contactButtons {
+  background-color: #0F1624;
+  box-shadow: 0 5px 17px -5px #aaa;
+}
+
+#light .contactButtons {
+  background-color: white;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+}
+
+.techText {
+  color: #FFF8DC;
+}
+
+/* .expTech {
+  color: #FFF8DC;
+} */
+
+.containerSM .btnSM {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #fff;
+  margin: 10px;
+  border-radius: 30%;
+  overflow: hidden;
+  position: relative;
+  color: #3edd8e;
+}
+
+.containerSM .btnSM #iTarget {
+  position: relative;
+  z-index: 4;
+  line-height: 90px;
+  font-size: 36px;
+  transition: 0.3s ease-in-out;
+}
+
+.containerSM .fa-github {
+  color: #383838;
+}
+
+.containerSM .gh::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: linear-gradient(#7e7e7e, #3a3a3a);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.containerSM .fa-linkedin {
+  color: #0a66c2;
+}
+
+.containerSM .in::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: linear-gradient(#2391ff, #0059b3);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.containerSM .fa-instagram {
+  color: #e33d68;
+}
+
+.containerSM .ig::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: radial-gradient(circle at 60% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.containerSM .fa-twitter {
+  color: #00c6ff;
+}
+
+.containerSM .tw::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: linear-gradient(#00c6ff, #0072ff);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+
+.containerSM .btnSM:hover i {
+  color: #fff;
+  transform: scale(1.4);
+}
+
+.containerSM .btnSM:hover::before {
+  animation: onHover 0.7s 1;
+  left: -10%;
+  top: -10%;
+}
+
+@keyframes onHover {
+  0% {
+    left: -110%;
+    top: 90%;
+  }
+
+  50% {
+    left: 10%;
+    top: -30%;
+  }
+
+  100% {
+    top: -10%;
+    left: -10%;
+  }
+}
+
+.containerSM .fa-envelope {
+  color: orange;
+}
+
+.containerSM .en::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: linear-gradient(orange, orange);
+  transform: rotate(45deg);
+  left: -110%;
+  top: 90%;
+}
+
+.DescMe {
+
+  margin-left: 10%;
+}
+
+.displayFlexT {
+  display: flex;
+}
+
+.spLottie {
+  width: 400px;
+  height: 400px;
+
+}
+
+@media screen and (max-device-width:950px),
+screen and (max-width:950px) {
+  .displayFlexT {
+    display: block;
+  }
+
+
+}
+
+@media screen and (min-device-width:1250px),
+screen and (min-width:1250px) {
+  .displayFlexProject {
+    display: flex;
+  }
+
+  .cornersForcardsLeft {
+    border-top-left-radius: 30px;
+  }
+
+  .widthforExp {
+    width: 70%;
+  }
+
+  .cornersForCardsRight {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+}
+
+@media screen and (max-device-width:949px),
+screen and (max-width:949px) {
+  .displayNoneForNav {
+    display: none;
+
+  }
+
+}
+
+@media screen and (max-device-width:460px),
+screen and (max-width:460px) {
+  .spLottie {
+    width: 250px;
+    height: 250px;
+
+  }
+
+}
+
+@media screen and (max-device-width:319px),
+screen and (max-width:319px) {
+  .spLottie {
+    display: none;
+  }
+
+}
+
+@media screen and (max-device-width:335px),
+screen and (max-width:335px) {
+  .navSpPhone {
+    display: flex;
+  }
+}
+

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/PortfolioWebsite/static/css/main.d97c36ac.css",
+    "main.js": "/PortfolioWebsite/static/js/main.9c01b6de.js",
+    "static/media/face-detector4.png": "/PortfolioWebsite/static/media/face-detector4.25f24a18debc619e1109.png",
+    "static/media/wristband1.png": "/PortfolioWebsite/static/media/wristband1.4ee513220a4228887be5.png",
+    "static/media/game1.png": "/PortfolioWebsite/static/media/game1.924205ebd1aa5f2b9530.png",
+    "static/media/Book1.png": "/PortfolioWebsite/static/media/Book1.fab218313fcb971d3684.png",
+    "index.html": "/PortfolioWebsite/index.html",
+    "main.d97c36ac.css.map": "/PortfolioWebsite/static/css/main.d97c36ac.css.map",
+    "main.9c01b6de.js.map": "/PortfolioWebsite/static/js/main.9c01b6de.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d97c36ac.css",
+    "static/js/main.9c01b6de.js"
+  ]
+}
