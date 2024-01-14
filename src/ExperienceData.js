@@ -34,7 +34,7 @@ const ExperiencesData = [
     Type: "Internship",
     date: "Jan 2022 - Aug 2022",
     name: "Omikron Technologies Private Limited.",
-    location: "Mississauga, ON, Canada",
+    location: "India",
     stack: ["  Codeigniter  |  ","PHP  |  ",  "  MySQL| jQuery | HTML/CSS/JavaScript"],
     live: "",
     colour: "#005EB8",
